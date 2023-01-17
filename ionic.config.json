@@ -1,0 +1,7 @@
+{
+  "name": "Restauran_xavi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
