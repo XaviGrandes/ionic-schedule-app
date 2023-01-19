@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ionic-schedule-app/static/css/main.c7772de4.css",
-    "main.js": "/ionic-schedule-app/static/js/main.1e715250.js",
+    "main.js": "/ionic-schedule-app/static/js/main.1e170008.js",
     "static/js/738.6fca52b5.chunk.js": "/ionic-schedule-app/static/js/738.6fca52b5.chunk.js",
     "static/js/372.a7da9572.chunk.js": "/ionic-schedule-app/static/js/372.a7da9572.chunk.js",
     "static/js/856.551b6a5a.chunk.js": "/ionic-schedule-app/static/js/856.551b6a5a.chunk.js",
@@ -16,7 +16,7 @@
     "service-worker.js": "/ionic-schedule-app/service-worker.js",
     "index.html": "/ionic-schedule-app/index.html",
     "main.c7772de4.css.map": "/ionic-schedule-app/static/css/main.c7772de4.css.map",
-    "main.1e715250.js.map": "/ionic-schedule-app/static/js/main.1e715250.js.map",
+    "main.1e170008.js.map": "/ionic-schedule-app/static/js/main.1e170008.js.map",
     "738.6fca52b5.chunk.js.map": "/ionic-schedule-app/static/js/738.6fca52b5.chunk.js.map",
     "372.a7da9572.chunk.js.map": "/ionic-schedule-app/static/js/372.a7da9572.chunk.js.map",
     "856.551b6a5a.chunk.js.map": "/ionic-schedule-app/static/js/856.551b6a5a.chunk.js.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.c7772de4.css",
-    "static/js/main.1e715250.js"
+    "static/js/main.1e170008.js"
   ]
 }
