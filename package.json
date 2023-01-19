@@ -1,6 +1,6 @@
 {
   "name": "Schedule_Activities_App",
-  "homepage": "https://xavigrandes.github.io/ionic-schedule-app/",
+  "homepage": "./",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
