@@ -56,6 +56,10 @@ const App: React.FC = () => (
       </IonMenu>
       <ActivitiesContextProvider>
       <IonRouterOutlet id='scheduleAppM1'>
+        <Route path="/ionic-schedule-app">
+          <Route path="/all-activities" component={AllActivities} exact/>
+          <Route path="/add-activity" component={AddActivity} exact/>
+        </Route>
         <Route path="/all-activities" component={AllActivities} exact/>
         <Route path="/add-activity" component={AddActivity} exact/>
         {/* de esta forma indico que si no encuentra la ruta, me redirecciona a la ruta /all-activities" */}
