@@ -11,7 +11,7 @@ const ActivitiesContextProvider: React.FC<PropsWithChildren> = (props) => {
                 description: 'Created a React App with Ionic',
                 hour:'10:00',
                 activityType:'work',
-                imageUrl: './assets/images/coding.jpg',
+                imageUrl: require('../images/coding.jpg'),
                 isCompleted: false
             },
             {
@@ -20,7 +20,7 @@ const ActivitiesContextProvider: React.FC<PropsWithChildren> = (props) => {
                 description: 'Cook rice with eggs',
                 hour:'13:00',
                 activityType:'work',
-                imageUrl: './assets/images/cooking.jpg',
+                imageUrl: require('../images/cooking.jpg'),
                 isCompleted: false
             },
             {
@@ -29,7 +29,7 @@ const ActivitiesContextProvider: React.FC<PropsWithChildren> = (props) => {
                 description: 'Run with frinds',
                 hour:'19:00',
                 activityType:'hobby',
-                imageUrl: './assets/images/running.jpg',
+                imageUrl: require('../images/running.jpg'),
                 isCompleted: false
             },
         ]
@@ -39,16 +39,16 @@ const ActivitiesContextProvider: React.FC<PropsWithChildren> = (props) => {
         let imageUrl = '';
         switch(activityType){
             case 'rest':
-                imageUrl = './assets/images/cooking.jpg'
+                imageUrl = require('../images/cooking.jpg')
                 break;
             case 'work':
-                imageUrl = './assets/images/coding.jpg'
+                imageUrl = require('../images/coding.jpg')
                 break;
             case 'hobby':
-                imageUrl = './assets/images/running.jpg'
+                imageUrl = require('../images/running.jpg')
                 break;
             default:
-                imageUrl = './assets/images/running.jpg'
+                imageUrl = require('../images/running.jpg')
                 break;
         };
         const newActivity: Activity = {

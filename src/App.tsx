@@ -59,7 +59,7 @@ const App: React.FC = () => (
         <Route path="/all-activities" component={AllActivities} exact/>
         <Route path="/add-activity" component={AddActivity} exact/>
         {/* de esta forma indico que si no encuentra la ruta, me redirecciona a la ruta /all-activities" */}
-        <Redirect to="/all-activities" />
+        {/* <Redirect to="/all-activities" /> */}
       </IonRouterOutlet>
       </ActivitiesContextProvider>
     </IonReactRouter>
