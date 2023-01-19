@@ -39,13 +39,13 @@ const ActivitiesContextProvider: React.FC<PropsWithChildren> = (props) => {
         let imageUrl = '';
         switch(activityType){
             case 'rest':
-                imageUrl = './assets/images/cooking.JPG'
+                imageUrl = './assets/images/cooking.jpg'
                 break;
             case 'work':
-                imageUrl = './assets/images/coding.JPG'
+                imageUrl = './assets/images/coding.jpg'
                 break;
             case 'hobby':
-                imageUrl = './assets/images/running.JPG'
+                imageUrl = './assets/images/running.jpg'
                 break;
             default:
                 imageUrl = './assets/images/running.jpg'
