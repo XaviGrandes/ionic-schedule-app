@@ -1,5 +1,6 @@
 {
-  "name": "Restauran_xavi",
+  "name": "Schedule_Activities_App",
+  "homepage": "https://xavigrandes.github.io/ionic-schedule-app/",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -45,7 +46,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -66,7 +70,8 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "4.6.2"
+    "@capacitor/cli": "4.6.2",
+    "gh-pages": "^4.0.0"
   },
   "description": "An Ionic project"
 }
